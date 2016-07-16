@@ -1,0 +1,63 @@
+
+body {
+	font-family: LeagueGothic;
+}
+.wraper {
+	position: relative;
+}
+img {
+ 	max-width: 100%;
+ 	height: auto;
+ 	width: auto\9; /* ie8 */
+}
+li {
+	list-style: none;
+}
+.clearfix {
+	clear: both;
+}
+header {
+	background: url("../img/bg_header.jpg");
+
+
+}
+.logo_start {
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.3);
+	color: white;
+	font-size: 48px;
+	font-weight: 400;
+	/*line-height: 34px;*/
+	}
+.logo_end {
+	color: #c3e54b;
+	font-size: 48px;
+	font-weight: 400;
+	/*line-height: 38px;
+	height: 38px;*/
+	display: inline-block;
+}
+.about {
+			/* IE10+ */
+background-image: -ms-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #755284), color-stop(100, #43324B));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* W3C Markup */
+background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
+		}
+	.feedback {
+		background-color: #f9f9f9;
+		padding-top: 70px;
+		/*padding-right: 20px;*/
+	}
+
