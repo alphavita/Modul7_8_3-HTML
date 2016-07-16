@@ -1,4 +1,4 @@
-@media screen  and (max-width:320px) and (min-width: 320px){
+@media screen  and (max-width:320px) {
 	.wraper {
 		width: 320px;
 		min-width: 320px;
@@ -127,6 +127,9 @@
 			padding-left: 32px;
 			letter-spacing: 0.0005px;
 
+		}
+		.slider_text {
+			display: none;
 		}
 		.iphone_hidden {
 			display: none;

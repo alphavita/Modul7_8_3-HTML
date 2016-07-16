@@ -137,6 +137,9 @@
 			letter-spacing: 0.0005px;
 
 		}
+		.slider_text {
+			display: none;
+		}
 		.iphone {
 			position: absolute;
 			top: -10px;
