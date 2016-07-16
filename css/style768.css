@@ -143,21 +143,21 @@
 
 
 		.about {
-			padding-top: 70px;
-			padding-left: 31px;
-			padding-right: 20px;
+			padding-top: 75px;
+			padding-left: 35px;
+			padding-right: 15px;
 			border-bottom: 1px solid #fff;
-			padding-bottom: 48px;
+			padding-bottom: 63px;
 
 		}
 			.about_container {
 			float: left;
-			width: 200px;
-			margin-right: 55px;
+			width: 203px;
+			margin-right: 50px;
 		}
 
 		.about_container_second {
-			margin-right:  30px;
+			margin-right:  57px;
 		}
 		.about_container_last {
 			margin-right: 0;
@@ -166,12 +166,20 @@
 			float: left;
 			padding-top: 4px;
 			padding-left: 1px;
-			padding-right: 23px;
+			padding-right: 25px;
 
 		}
 		.about_container_content {
 			float: left;
-			width: 140px;
+			width: 153px;
+			 word-break: break-all
+
+		}
+		.about_container_second {
+			margin-right: 57 px;
+		}
+		.text_hidden768 {
+			display: none;
 		}
 		.about_container_content_header {
 		text-shadow: 0.5px 0.9px 0 #0f1518;
@@ -191,7 +199,7 @@
 		line-height: 24px;
 		padding-left: 2px;
 		padding-top: 2px;
-		padding-bottom: 14px;
+		padding-bottom: 8px;
 	}
 	.about_container_content_footer {
 		text-shadow: 0.5px 0.9px 0 #0f1518;
@@ -204,6 +212,303 @@
 		padding-right: 5px;
 	}
 
+	.about_container_second .about_container_img {
+		padding-left: 0;
+	}
+	.feedback {
+		background-color: grey;
+		padding-top: 100px;
+	}
+	.testimonials_wraper {
+		float: left;
+		width: 334px;
+		margin-left: 46px;
+	}
+	.testimonials {
+
+		margin-bottom: 25px;
+		padding-left: 38px;
+		padding-bottom: 43px;
+		padding-right: 27px;
+		padding-top: 23px;
+		background-color: #fff;
+		position: relative;
+		margin-right: 20px;
+		float: left;
+		width: 314px;
+	}
+	.testimonials_img {
+		position: absolute;
+		top: 17px;
+		left: -22px;
+
+
+	}
+	.testimonials_header {
+		margin-bottom: 8px;
+	}
+	.testimonials_header_start {
+		text-shadow: 0.5px 0.9px 0 white;
+		font-family: LeagueGothic;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: #454545;
+
+		padding-top: 6px;
+		padding-left: 3px;
+
+	}
+
+
+	.testimonials_header_end {
+		text-shadow: 0.5px 0.9px 0 white;
+		font-family: LeagueGothic;
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		color: #edbfff;
+
+		/*padding-top: 7px;*/
+		padding-left: 3px;
+	}
+.testimonials_conteny_text {
+		text-shadow: 0.5px 0.9px 0 white;
+		color: #454545;
+		font-family: 'Open Sans';
+		font-size: 16px;
+		font-weight: 300;
+		line-height: 24px;
+		-ms-word-break: break-all;
+		word-break: break-all;
+}
+.testimonials_nav {
+	/*padding-top: 3px;*/
+	/*margin-left: 40px;
+	margin-right: 	30px;*/
+	/*padding-top: 3px;*/
+	width: 314px;
+	margin-bottom: 53px;
+}
+.testimonials_nav img {
+	display: block;
+	margin: 0 auto;
+}
+
+.blogs {
+	padding-top: 32px;
+	margin-left: 38px;
+	/*padding-right: 20px;*/
+	padding-bottom: 83px;
+
+	float: left;
+	width: 347px;
+}
+.blogs_content {
+	position: relative;
+	margin-bottom: 18px;
+}
+.blogs_content_second {
+	margin-bottom: 19px;
+}
+
+.blogs_header {
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: LeagueGothic;
+	font-size: 30px;
+	font-weight: 400;
+	line-height: 24px;
+	margin-bottom: 20px;
+}
+.blogs_content_img img{
+	border-radius: 50%;
+	/*position: absolute;*/
+	float: left;
+	width: 48px;
+}
+.blogs_content_header {
+	/*text-shadow: 0.5px 0.9px 0 white;*/
+	color: #454545;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 700;
+	float: left;
+	margin-left: 17px;
+	line-height: 24px;
+	width: 265px;
+}
+.blogs_content_text {
+	/*text-shadow: 0.5px 0.9px 0 white;*/
+	color: #454545;
+	font-family: 'Open Sans';
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	float: left;
+	width:290px ;
+	padding-left: 17px;
+	line-height: 24px;
+
+}
+.blogs_content_footer {
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: LeagueGothic;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: right;
+	margin-right: 17px;
+}
+
+
+.logo_feedback {
+	/*width: 300px;*/
+	padding-left: 26px;
+/*	margin-top: 72px;*/
+	border-top: 1px solid #fff;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #fff;
+}
+.logo_brend {
+	float: left;
+	/*width: 104px;*/
+	margin-right: 55px;
+	margin-bottom: 6PX;
+}
+/*.logo_brend_first {
+	margin-left: 40px;
+}*/
+.logo_brend_three {
+	margin-right: 62px;
+}
+.logo_brend_free {
+/*	margin-left: 23px;*/
+	margin-right: 60px;
+}
+.logo_brend_five {
+	padding-top: 2px;
+	margin-right: 51px;
+}
+.logo_brend_six {
+	margin-right: 0;
+	padding-top: 3px;
+}
+/*.logo_brend_mar {
+	margin-bottom: 40px;
+}*/
+.logo_brend img {
+	display: block;
+	margin: 0 auto;
+}
+
+.news {
+	border-top: 1px solid #e6e6e6;
+	padding-top: 100px;
+/*	padding-right: 17px;*/
+	padding-left: 22px;
+	display: block;
+	background-color: #ececec;
+	padding-bottom: 38px;
+
+}
+.news_content {
+	float: left;
+	width: 204px;
+	margin-right: 62px;
+}
+.news_content_last {
+	margin-right: 0;
+}
+
+.news_content_header {
+	text-shadow: 0.5px 0.9px 0 white;
+	color: #454545;
+	font-family: LeagueGothic;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 24px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+.news_content_text {
+
+text-shadow: 0.5px 0.9px 0 white;
+color: #787878;
+font-family: 'Open Sans';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: -0.4px;
+padding-bottom: 55px;
+word-break: break-all;
+
+}
+footer {
+	padding-top: 40px;
+	padding-left: 22px;
+	padding-right: 20px;
+	background-image: url('../img/footer_bg.png');
+	text-align: center;
+	padding-bottom: 86px;
+}
+.footer_nav {
+	display: block;
+	padding-bottom: 18px;
+
+}
+
+.footer_nav li {
+	float: left;
+	margin-right: 44px;
+
+
+}
+.footer_nav_link_last {
+	margin-right: 0;
+}
+.footer_nav a{
+	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: LeagueGothic;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 34px;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-bottom: 18px;
+}
+
+.footer_p {
+	text-align: right;
+}
+
+.footer_start {
+	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	line-height: 34px;
+	font-weight: 300;
+	text-align: right;
+
+
+}
+.footer_end {
+	text-shadow: 1px 1.7px 2px rgba(0, 0, 0, 0.4);
+	color: white;
+	font-family: 'Open Sans';
+	font-size: 12px;
+	line-height: 34px;
+	font-weight: 700;
+	text-align: right;
+
+}
 
 
 }
