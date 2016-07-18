@@ -1,18 +1,85 @@
 @media screen  and  (min-width: 961px) {
-	.wraper {
+	/*.wraper {
 		width: 961px;
 		min-width: 961px;
 		position: relative;
 		margin: 0 auto;
 
+	}*/
+.wraper {
+	position: relative;
+}
+.header_wraper,
+	.about_wraper,
+	.feedback_wraper,
+	.news_wraper,
+	.footer_wraper 	 {
+		/*width: 961px;
+		min-width: 961px;*/
+		position: relative;
+		margin: 0 auto;
 	}
+	.header_wraper {
+
+		background-position: top center;
+		/*background: url("../img/bg_header.jpg") 50% 100%;*/
+	}
+	.about_wraper {
+
+			/* IE10+ */
+background-image: -ms-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Mozilla Firefox */
+background-image: -moz-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Opera */
+background-image: -o-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* Webkit (Safari/Chrome 10) */
+background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #755284), color-stop(100, #43324B));
+
+/* Webkit (Chrome 11+) */
+background-image: -webkit-linear-gradient(top, #755284 0%, #43324B 100%);
+
+/* W3C Markup */
+background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
+	}
+	.feedback_wraper {
+		background-color: #f9f9f9;
+		/*background-color: grey;*/
+	}
+	.news_wraper {
+		background-color: #ececec;
+	}
+	.footer_wraper {
+			background-position: top center;
+		background-image: url('../img/footer_bg.png');
+	}
+	.slider_961 {
+
+		position: absolute;
+		height: 395px;
+		top: 277px;
+		left:0;
+		width: 100%;
+		z-index: 0;
+		background-color: rgba(0,0,0,0.3);
+		}
+
+
+
+
+
 
 	header {
-		-webkit-background-size: cover;
-		background-size: cover;
+		/*-webkit-background-size: cover;*/
+		/*background-size: cover;*/
 		padding-bottom: 55px;
 		border-bottom: 1px solid #37293e;
 		position: relative;
+		margin: 0 auto	;
+		width: 961px;
+		min-width: 961px;
 	}
 	.logo {
 
@@ -66,7 +133,7 @@
 		padding-top: 86px;
 		padding-bottom: 80px;
 		position: relative;
-		background-color: rgba(0,0,0,0.3);
+		/*background-color: rgba(0,0,0,0.3);*/
 	}
 	.slider_hidden_960 {
 		display: none;
@@ -159,11 +226,14 @@
 		}
 
 		.about {
+			margin: 0 auto	;
 			padding-top: 78px;
 			padding-left: 10px;
 
 			border-bottom: 1px solid #fff;
 			padding-bottom: 65px;
+			width: 961px;
+		min-width: 961px;
 
 		}
 			.about_container {
@@ -255,7 +325,10 @@
 
 
 	.feedback {
-		background-color: grey;
+		width: 961px;
+		min-width: 961px;
+		margin: 0 auto	;
+		background-color: #f9f9f9;
 		padding-top: 100px;
 	}
 	.testimonials_wraper {
@@ -459,6 +532,9 @@
 }
 
 .news {
+	width: 961px;
+		min-width: 961px;
+	margin: 0 auto	;
 	border-top: 1px solid #e6e6e6;
 	padding-top: 100px;
 /*	padding-right: 17px;*/
@@ -530,10 +606,13 @@ letter-spacing: -0.2px;
 
 
 footer {
+	width: 961px;
+		min-width: 961px;
+	margin: 0 auto	;
 	padding-top: 40px;
 	/*padding-left: 22px;*/
 	/*padding-right: 20px;*/
-	background-image: url('../img/footer_bg.png');
+	/*background-image: url('../img/footer_bg.png');*/
 	text-align: center;
 	padding-bottom: 22px;
 	position: relative;

@@ -5,6 +5,10 @@
 		position: relative;
 
 	}
+	.header_wraper {
+			background-position: top center;
+		/*background: url("../img/bg_header.jpg");*/
+	}
 
 	header {
 		-webkit-background-size: cover;
