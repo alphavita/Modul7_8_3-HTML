@@ -4,6 +4,7 @@ body {
 }
 .wraper {
 	position: relative;
+	margin: 0 auto;
 }
 img {
  	max-width: 100%;
@@ -64,4 +65,4 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 }
 
 
-Автор статьи: Адаптивная верстка. Шпаргалки верстальщика - Уроки WordPress
+

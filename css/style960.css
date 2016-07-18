@@ -203,6 +203,8 @@
 		font-weight: 400;
 		line-height: 24px;
 		padding-top: 1px;
+		padding-left: 3px;
+		letter-spacing: -0.4px;
 		}
 
 		.about_container_content_text {
@@ -420,7 +422,7 @@
 /*	margin-top: 72px;*/
 	border-top: 1px solid #fff;
 	padding-top: 26px;
-	padding-bottom: 20px;
+	padding-bottom: 22px;
 	border-bottom: 1px solid #fff;
 }
 .logo_brend {
@@ -433,15 +435,15 @@
 	margin-left: 40px;
 }*/
 .logo_brend_three {
-	margin-right: 62px;
+	margin-right: 72px;
 }
 .logo_brend_free {
 /*	margin-left: 23px;*/
-	margin-right: 60px;
+	margin-right: 68px;
 }
 .logo_brend_five {
 	padding-top: 2px;
-	margin-right: 51px;
+	margin-right: 64px;
 }
 .logo_brend_six {
 	margin-right: 0;
@@ -459,7 +461,7 @@
 	border-top: 1px solid #e6e6e6;
 	padding-top: 100px;
 /*	padding-right: 17px;*/
-	padding-left: 22px;
+	/*padding-left: 22px;*/
 	display: block;
 	background-color: #ececec;
 	padding-bottom: 38px;
@@ -467,8 +469,8 @@
 }
 .news_content {
 	float: left;
-	width: 204px;
-	margin-right: 62px;
+	width: 278px;
+	margin-right: 61px;
 }
 .news_content_last {
 	margin-right: 0;
@@ -478,11 +480,13 @@
 	text-shadow: 0.5px 0.9px 0 white;
 	color: #454545;
 	font-family: LeagueGothic;
-	font-size: 24px;
+	font-size: 30px;
 	font-weight: 400;
 	line-height: 24px;
 	text-transform: uppercase;
 	margin-bottom: 10px;
+
+
 }
 .news_content_text {
 
@@ -497,13 +501,42 @@ padding-bottom: 55px;
 word-break: break-all;
 
 }
+.logo_news_hidden {
+	margin-bottom: 8px;
+	margin-top: 3px;
+}
+.logo_news_hidden h1 {
+ line-height: 34px;
+ letter-spacing: -1.0px;
+ margin-bottom: 5px;
+
+}
+.news_content_header-p {
+
+text-shadow: 0.5px 0.9px 0 white;
+color: #c5c5c5;
+font-family: Georgia;
+font-size: 16px;
+font-style: italic;
+line-height: 24px;
+text-transform: none;
+letter-spacing: -0.2px;
+}
+.news_content_header_hidden {
+	margin-bottom: 5px;
+}
+
+
+
 footer {
 	padding-top: 40px;
-	padding-left: 22px;
-	padding-right: 20px;
+	/*padding-left: 22px;*/
+	/*padding-right: 20px;*/
 	background-image: url('../img/footer_bg.png');
 	text-align: center;
-	padding-bottom: 86px;
+	padding-bottom: 22px;
+	position: relative;
+
 }
 .footer_nav {
 	display: block;
@@ -516,6 +549,9 @@ footer {
 	margin-right: 44px;
 
 
+}
+.footer_nav li:nth-of-type(5) {
+	margin-right: 39px;
 }
 .footer_nav_link_last {
 	margin-right: 0;
@@ -533,6 +569,9 @@ footer {
 }
 
 .footer_p {
+	position: absolute;
+	top: 45px;
+	right:0;
 	text-align: right;
 }
 
