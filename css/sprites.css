@@ -1,0 +1,34 @@
+.about_container_img, .about_icon_note, .left_arrow_slider, .right_arrow_slider, .about_icon_1{
+	background: url(../img/sprites.png) no-repeat;
+}
+
+.about_container_img{
+	background-position: -12px -9px ;
+	width: 24px;
+	height: 25px;
+}
+
+.about_icon_note{
+	background-position: -65px -9px ;
+	width: 23px;
+	height: 25px;
+}
+
+.left_arrow_slider{
+	background-position: -160px -8px ;
+	width: 30px;
+	height: 42px;
+}
+
+.right_arrow_slider{
+	background-position: -205px -7px ;
+	width: 30px;
+	height: 42px;
+}
+
+.about_icon_1{
+	background-position: -7px -11px ;
+	width: 30px;
+	height: 31px;
+}
+

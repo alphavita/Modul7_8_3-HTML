@@ -1,0 +1,43 @@
+.about_container_1 {
+	background: url("../img/sprite.png") 0 0;
+	width: 24px;
+	height: 25px;
+	display: inline-block;
+	-ms-text-align: top ;
+	text-align: top ;
+	margin-top: 7px;
+			margin-left: 4px;
+			margin-right: 23px;
+
+}
+
+.about_icon_note {
+	background: url("../img/sprite.png") 0 -25px no-repeat;;
+	width: 23px;
+	height: 25px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+.about_iicon_sp {
+	background: url("../img/sprite.png") 0 -50px  no-repeat;
+	width: 27px;
+	height: 23px;
+	margin-top: 10px;
+	margin-left: 3px;
+	margin-right: 22px;
+
+}
+
+.left_arrow_slider {
+	background: url("../img/sprite.png") 0 -73px  no-repeat;
+	width: 30px;
+	height: 42px;
+}
+
+.right_arrow_slider {
+	background: url("../img/sprite.png") 0 -115px  no-repeat;
+	width: 30px;
+	height: 42px;
+}
+
