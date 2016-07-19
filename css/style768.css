@@ -115,7 +115,8 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 	}
 	.slider a:first-of-type {
 		float: left;
-		padding-top: 69px;
+		padding-top: 40px;
+		margin-bottom: 40px;
 	}
 	.slider a:last-of-type {
 		float: right;
