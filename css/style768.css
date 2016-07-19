@@ -49,7 +49,7 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 	}
 	.footer_wraper {
 			background-position: top center;
-		background-image: url('../img/footer_bg.png');
+		background-image: url('../img/bg-footer.png');
 	}
 
 
@@ -111,6 +111,7 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 		padding-bottom: 109px;
 		position: relative;
 		background-color: rgba(0,0,0,0.3);
+		position: relative;
 	}
 	.slider a:first-of-type {
 		float: left;
@@ -118,7 +119,10 @@ background-image: linear-gradient(to bottom, #755284 0%, #43324B 100%);
 	}
 	.slider a:last-of-type {
 		float: right;
-		padding-top: 4px;
+		/*padding-top: 4px;*/
+		position: absolute;
+		top: 107px;
+		right:0;
 
 	}
 
@@ -506,13 +510,16 @@ footer {
 	padding-top: 40px;
 	padding-left: 22px;
 	padding-right: 20px;
-	background-image: url('../img/footer_bg.png');
+	background-image: url('../img/bg-footer.png');
+	-webkit-background-size: cover;
+	background-size: cover;
 	text-align: center;
 	padding-bottom: 86px;
 }
 .footer_nav {
 	display: block;
 	padding-bottom: 18px;
+	padding-left: 15px;
 
 }
 
